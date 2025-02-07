@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialer box</title>
+    <link rel="stylesheet" href="dialer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="box">
+      <div class="a">
+        <div class="profile">
+           <img src="https://thumbs.dreamstime.com/b/beautiful-smiling-young-woman-profile-looking-down-long-ama-amazing-hair-nature-bright-sunset-summer-background-closeup-119826079.jpg" alt="">
+        </div>
+        <div class="details">
+            <p class="name">Olu Akash</p>
+            <p class="ph">484 785 9648</p>
+        </div>
+        <div class="timer">
+
+            <p><span><i class="fa-regular fa-circle-dot"></i></span>00:00:27</p>
+        </div>
+        
+      </div>
+
+      <div class="b">
+        <div class="mute">
+            <div class="icon">
+                <i class="fa-solid fa-microphone-slash"></i>
+            </div>
+            <div class="txt">
+                <p>Mute</p>
+            </div>
+        </div>
+        <div class="hold">
+            <div class="icon">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+            <div class="txt">
+                <p>Hold</p>
+            </div>
+        </div>
+        <div class="transfer">
+            <div class="icon">
+                <i class="fa-solid fa-people-arrows"></i>
+                
+            </div>
+            <div class="txt">
+                <p>Transfer</p>
+            </div>
+        </div>
+        <div class="supervisor">
+            <div class="icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="txt">
+                <p>Supervisor</p>
+            </div>
+        </div>
+        <div class="keypad">
+            <div class="icon">
+                <i class="fa-solid fa-keyboard"></i>
+            </div>
+            <div class="txt">
+                <p>Keypad</p>
+            </div>
+        </div>
+      </div>
+      <div id="fhfhf" class="c">
+        <div class="info">
+            <div class="arrow"><p><i class="fa-solid fa-book"></i> call info</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </div>
+            <div class="cont">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, placeat? Assumenda minima libero praesentium harum facilis quaerat magnam doloribus illo hic veniam cum, sequi corrupti commodi dignissimos eligendi id fugit.</p>
+            </div>
+
+        
+
+    </div>
+
+    <script>
+        arrow = document.querySelector(".arrow")
+        cont = document.querySelector(".cont")
+        arrow.onclick = function(){
+            cont.classList.toggle("show")
+        }
+    </script>
+</body>
+</html>
